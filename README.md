@@ -25,9 +25,9 @@ It is designed to compress viral genome data efficiently while ensuring **zero d
 We tested our algorithm on **four viral genome datasets**, including:
 
 1. **SARS-CoV-2** (≈ 30,000 bases)
-2. **HIV** genome
-3. **Influenza A** virus
-4. **Sample test genome** (≈ 9,000 bases)
+2. **HIV** genome (≈ 9,100 bases)
+3. **Zika** virus (≈ 10800 bases)
+4. **Dengue virus** (≈ 10,700 bases)
 
 All datasets are in standard **FASTA** format.
 
@@ -59,7 +59,6 @@ All datasets are in standard **FASTA** format.
 - `original_sequence.txt` – Original genome sequence
 - `decoded_sequence.txt` – Reconstructed sequence from decoding
 - `compressed_genome.bin` – Compressed binary file
-- `compression_report.txt` – Summary of results
 
 ---
 
@@ -79,23 +78,4 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## 👥 Team Members
-
-- Srivarma Battini – [Add Role if needed]
-- [Team Member 2]
-- [Team Member 3]
-
----
-
-## 📚 References
-
-- Mahoney, M. (2005). *Adaptive context mixing for lossless data compression*. Florida Institute of Technology.
-- Shibata, H., & Takeda, M. (2011). *Lossless genomic data compression based on context mixing*. Bioinformatics, 27(9), 1216–1222.
-- Langdon, G. G. (1984). *An introduction to arithmetic coding*. IBM Journal of Research and Development, 28(2), 135–149.
-
----
-
-## 🔍 Note
-
-This project demonstrates the potential of **statistical modeling** in genome compression. The encoded data is saved as a binary file, and the **exact original genome** is recovered from it using arithmetic decoding.
 
