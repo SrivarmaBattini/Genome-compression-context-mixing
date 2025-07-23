@@ -62,7 +62,7 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python 3**
 - `decimal`, `math`, `os`, `collections`
