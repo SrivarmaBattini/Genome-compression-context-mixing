@@ -1,6 +1,6 @@
 +# 🧬 Genome Compression using Context Mixing & Arithmetic Encoding
 
-## 📌 Overview
+## Overview
 This project implements a **lossless genome compression** algorithm using:
 
 - **N-Gram Models (2-gram & 4-gram)**
@@ -11,7 +11,7 @@ It is designed to compress viral genome data efficiently while ensuring **zero d
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 - Genomic data contains huge amounts of information, demanding efficient storage and transmission.
 - General-purpose compressors (like ZIP) don't leverage biological patterns.
@@ -20,7 +20,7 @@ It is designed to compress viral genome data efficiently while ensuring **zero d
 
 ---
 
-## 📂 Datasets Used
+## Datasets Used
 
 We tested our algorithm on **four viral genome datasets**, including:
 
@@ -33,7 +33,7 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Implements **n-gram modeling** (2-gram and 4-gram)
 - Uses **context mixing** to combine predictions from multiple models
@@ -45,7 +45,7 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## ✅ Results
+## Results
 
 - **Compression Ratio** (Theoretical): ~0.24 – 0.26
 - **Actual Compression Ratio** (File Size): ~0.24 – 0.25
@@ -54,7 +54,7 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## 📁 Output Files
+## Output Files
 
 - `original_sequence.txt` – Original genome sequence
 - `decoded_sequence.txt` – Reconstructed sequence from decoding
@@ -70,7 +70,7 @@ All datasets are in standard **FASTA** format.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Place your genome file as `sequences.fasta` in the root folder.
 2. Run the script: `python GenomeCompressionUsing_CM_AC.py`
