@@ -1,4 +1,4 @@
-# 🧬 Genome Compression using Context Mixing & Arithmetic Encoding
++# 🧬 Genome Compression using Context Mixing & Arithmetic Encoding
 
 ## 📌 Overview
 This project implements a **lossless genome compression** algorithm using:
@@ -73,7 +73,7 @@ All datasets are in standard **FASTA** format.
 ## ▶️ How to Run
 
 1. Place your genome file as `sequences.fasta` in the root folder.
-2. Run the script: `python genome_compression.py`
+2. Run the script: `python GenomeCompressionUsing_CM_AC.py`
 3. Output files and reports will be generated automatically.
 
 ---
