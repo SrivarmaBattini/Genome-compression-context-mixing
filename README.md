@@ -1,4 +1,4 @@
-+# Genome Compression using Context Mixing & Arithmetic Encoding
+# Genome Compression using Context Mixing & Arithmetic Encoding
 
 ## Overview
 This project implements a **lossless genome compression** algorithm using:
